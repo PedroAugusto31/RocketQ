@@ -1,0 +1,22 @@
+{
+  "name": "projetonlw",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para gerenciar perguntas anônimas direcionadas ao dono da sala. Projeto desenvolvido na NLW Rocketseat na missão discover",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Pedro Augusto",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
