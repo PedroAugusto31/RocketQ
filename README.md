@@ -5,9 +5,10 @@
 > <h2> Used tecnologies🖥️ </h2>
 
 <ul>
-  <li>CSS</li>
+  <li>HTML/CSS</li>
   <li>JavaScript</li>
   <li>EJS</li>
+  <li>Node</li>
 </ul>
 
 > <h2> About the Project </h2>
