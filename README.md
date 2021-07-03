@@ -5,10 +5,10 @@
 > <h2> Used tecnologies🖥️ </h2>
 
 <ul>
-  <li>HTML/CSS</li>
-  <li>JavaScript</li>
-  <li>EJS</li>
-  <li>Node</li>
+  <li><a href="https://www.w3.org/standards/webdesign/htmlcss.html">HTML/CSS</a></li>
+  <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript">JavaScript</a></li>
+  <li><a href="https://expressjs.com/">EJS</a></li>
+  <li><a href="https://nodejs.org/en/">Node</a></li>
 </ul>
 
 > <h2> About the Project </h2>
