@@ -54,14 +54,8 @@
   justify-content: center;
 }
 
-.containerButtons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .modal-wrapper .modal .buttons .button {
-  margin-left: 0.8rem;
+  margin-right: 0.8rem;
 }
 
 .modal-wrapper .modal .buttons > button,
