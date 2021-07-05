@@ -1,6 +1,6 @@
 export default function Modal() {
   const wrapper = document.querySelector('.modal-wrapper');
-  const cancelButton = document.querySelector('.buttons #cancel');
+  const cancelButton = document.querySelector('#cancel');
 
   cancelButton.addEventListener('click', close);
 
