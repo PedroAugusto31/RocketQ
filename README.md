@@ -17,4 +17,4 @@
 
 > <h2>Final considerations</h2>
 
-<p>It was a pleasure to make this project alongside the <a href="https://app.rocketseat.com.br/">Rocketseat<a> team❤️</p>
+<p>It was a pleasure to make this project alongside the <a href="https://app.rocketseat.com.br/">Rocketseat team<a>❤️</p>
