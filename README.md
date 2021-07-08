@@ -11,7 +11,7 @@
   <li><a href="https://nodejs.org/en/">Node</a></li>
 </ul>
 
-> <h2> About the Project </h2>
+> <h2> About the Project🔥 </h2>
 
 <p>RocketQ is a platform where you can ask questions anonymously on private rooms, each room has it's own ID.</p>
 
