@@ -18,10 +18,12 @@
       rel="shortcut icon"
       type="image/svg"
       href="/images/rocketQMiniLogoNLW.svg"
-    />
-    <title>Criar sala - Rocket.Q</title>
-  </head>
-  <body>
+      />
+      
+      <title>Criar sala - Rocket.Q</title>
+    </head>
+    <body>
+      <script src="/public/scripts/theme.js"></script>
     <div id="home" class="content">
       <header>
         <a href="/">
@@ -37,6 +39,7 @@
       <main>
         <div class="container">
           <!-- Vai renderizar de acordo com a url-->
+          <input id="switch" type="checkbox" name="theme">
           <%- include(`parts/${ page }`) %>
         </div>
       </main>
