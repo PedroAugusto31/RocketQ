@@ -81,7 +81,7 @@ button,
   justify-content: center;
 
   background: var(--blue);
-  color: var(--white);
+  color: var(--grey-light);
 
   transition: filter 0.2s;
 

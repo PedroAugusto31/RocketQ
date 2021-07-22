@@ -25,6 +25,7 @@
 }
 
 #room header .buttons .button:nth-child(2) {
+  width: 17.3rem;
   padding: 1.3rem 3.2rem;
 }
 
@@ -174,4 +175,39 @@
   margin-top: 1.3rem;
   line-height: 1.9rem;
   color: var(--grey-dark);
+}
+
+
+/* navigation */
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navigation .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation img {
+  width: 4.38rem !important;
+  height: 4.38rem;
+}
+
+.navigation p {
+  width: 100%;
+  color: var(--black);
+  font-family: 'GT Walsheim Pro', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.navigation input {
+  width: 3rem !important;
+  height: 3rem;
+  margin: .4rem 0 0 .4rem;
 }

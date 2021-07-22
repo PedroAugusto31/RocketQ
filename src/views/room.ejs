@@ -28,9 +28,13 @@
   <body>
     <div id="room" class="content">
       <header>
-        <a href="/">
-          <img src="/images/logoProjetoNLW.svg" alt="logo Rocketseat.Q" />
-        </a>
+        <div class="navigation">
+          <a href="/" class="logo">
+            <img src="/images/IconeTesteNLW.svg" alt="logo Rocketseat.Q" />
+            <p>rocket.q</p>
+          </a>
+          <input id="switch" type="checkbox" name="theme">
+        </div>
 
         <div class="buttons">
           <div class="button outlined" id="room-id" data-id="<%= roomId %>">
@@ -149,5 +153,6 @@
         </form>
         </div>
       </div>
+      <script src="/scripts/theme.js"></script>
   </body>
 </html>

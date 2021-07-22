@@ -56,7 +56,7 @@ button,
 
 img,
 .room-icon {
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 /* Separator */
@@ -102,4 +102,36 @@ img,
 .ball.bottom {
   bottom: -15rem;
   right: 5.6rem;
+}
+
+.navigation {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navigation .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation img {
+  width: 4.38rem !important;
+  height: 4.38rem;
+}
+
+.navigation p {
+  width: 100%;
+  color: var(--black);
+  font-family: 'GT Walsheim Pro', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.navigation input {
+  width: 3rem !important;
+  height: 3rem;
+  margin: .4rem 0 0 .4rem;
 }

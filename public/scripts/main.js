@@ -1,10 +1,13 @@
 import Modal from './modal.js';
 
+
+
 const modal = Modal();
 
 const modalTitle = document.querySelector('.modal h2');
 const modalDescription = document.querySelector('.modal p');
 const modalButton = document.querySelector('.modal .buttons #action');
+const checkbox = document.querySelector("input[name=theme]");
 
 // Fazer todos os botões funcionarem
 const checkButtons = document.querySelectorAll('.actions a.check');
@@ -17,6 +20,7 @@ const deleteButtons = document.querySelectorAll('.actions a.delete');
 deleteButtons.forEach((button) => {
   button.addEventListener('click', (event) => handleClick(event, false));
 });
+
 function handleClick(event, check = true) {
   event.preventDefault();
   const slug = check ? 'check' : 'delete';
@@ -36,4 +40,5 @@ function handleClick(event, check = true) {
     : modalButton.classList.add('red');
 
   modal.open();
+
 }

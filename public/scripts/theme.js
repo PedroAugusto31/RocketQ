@@ -7,11 +7,16 @@ const getStyle = (element, style) =>
 
 const initialColors = {
   background: getStyle(html, "--background"),
+  black: getStyle(html, "--black"),
+  white: getStyle(html, "--white")
  
 }
 const darkMode = {
-  background: getStyle(html, "--black"),
- 
+  background: "#0d114f",
+  black: "#fafafa",
+  white: " #0d114f",
+
+
 }
 
 const transformKey = key => "--" + key.replace(/([A-Z])/, "-$1").toLowerCase()
