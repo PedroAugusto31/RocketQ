@@ -1,213 +1,212 @@
 .content {
-  max-width: min(112rem, 90%);
+	max-width: min(112rem, 90%);
 }
 
 #room header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 #room header .buttons {
-  display: flex;
+	display: flex;
 }
 
 #room header .buttons .button:nth-child(1) {
-  margin-right: 0.8rem;
-  padding: 1.3rem 1.6rem;
+	margin-right: 0.8rem;
+	padding: 1.3rem 1.6rem;
 }
 
 #room header .buttons .button:nth-child(1) img {
-  margin-left: 1rem;
-  width: 2rem;
-  height: 2rem;
+	margin-left: 1rem;
+	width: 2rem;
+	height: 2rem;
 }
 
 #room header .buttons .button:nth-child(2) {
-  width: 17.3rem;
-  padding: 1.3rem 3.2rem;
+	width: 17.3rem;
+	padding: 1.3rem 3.2rem;
 }
 
 #room header .buttons .button:nth-child(2) img {
-  width: 2rem;
-  height: 2rem;
+	width: 2rem;
+	height: 2rem;
 }
 
 #question-form h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 2.8rem;
-  color: var(--black);
-  line-height: 4.2rem;
-  margin-bottom: 2.4rem;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-size: 2.8rem;
+	color: var(--black);
+	line-height: 4.2rem;
+	margin-bottom: 2.4rem;
 }
 
 #question-form form {
-  border: 0.2rem solid var(--grey-blue);
-  border-radius: 0 0.8rem 0.8rem 0.8rem;
-  padding: 1.6rem;
+	border: 0.2rem solid var(--grey-blue);
+	border-radius: 0 0.8rem 0.8rem 0.8rem;
+	padding: 1.6rem;
 
-  margin-bottom: 1.6rem;
+	margin-bottom: 1.6rem;
 }
 
 #question-form textarea {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  width: 100%;
-  line-height: 2.6rem;
-  background: transparent;
-  resize: none;
-  outline: none;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 400;
+	width: 100%;
+	line-height: 2.6rem;
+	background: transparent;
+	resize: none;
+	outline: none;
 }
 
 #question-form form textarea::placeholder {
-  color: var(--grey-blue);
+	color: var(--grey-blue);
 }
 
 #question-form form footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 4rem;
 }
 
 #question-form form footer > div {
-  display: flex;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 1.4rem;
-  color: var(--icons-details);
+	display: flex;
+	font-family: "Poppins", sans-serif;
+	font-weight: 400;
+	font-size: 1.4rem;
+	color: var(--icons-details);
 
-  align-items: center;
-  margin-bottom: 0.9rem;
+	align-items: center;
+	margin-bottom: 0.9rem;
 }
 
 #question-form form footer > div img {
-  margin-right: 0.9rem;
+	margin-right: 0.9rem;
 }
 
 #question-form form footer button {
-  height: auto;
+	height: auto;
 
-  line-height: 2.4rem;
-  padding: 0.8rem 2.4rem;
+	line-height: 2.4rem;
+	padding: 0.8rem 2.4rem;
 }
 
 /** question **/
 
 .question-wrapper {
-  height: 13.6rem;
-  background-color: var(--light-blue);
-  border-radius: 0 0.8rem 0.8rem 0.8rem;
-  margin-bottom: 0.8rem;
-  padding: 2.4rem;
+	height: 13.6rem;
+	background-color: var(--light-blue);
+	border-radius: 0 0.8rem 0.8rem 0.8rem;
+	margin-bottom: 0.8rem;
+	padding: 2.4rem;
 }
 
 .question-wrapper .question-content {
-  display: flex;
-  align-items: flex-start;
+	display: flex;
+	align-items: flex-start;
 }
 
 .question-content .user {
-  background-color: var(--blue);
-  clip-path: circle();
-  padding: 1.4rem;
+	background-color: var(--blue);
+	clip-path: circle();
+	padding: 1.4rem;
 }
 
 .question-wrapper .question-content p {
-  margin-left: 1.6rem;
-  word-break: break-word;
-  display: flex;
-  align-items: center;
-  min-height: 5.2rem;
+	margin-left: 1.6rem;
+	word-break: break-word;
+	display: flex;
+	align-items: center;
+	min-height: 5.2rem;
 }
 
 .question-wrapper .actions {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
 }
 
 .question-wrapper .actions > a {
-  display: flex;
-  align-items: center;
-  color: var(--grey-dark);
+	display: flex;
+	align-items: center;
+	color: var(--grey-dark);
 }
 
 .question-wrapper .actions > a > img {
-  margin-right: 0.8rem;
+	margin-right: 0.8rem;
 }
 
 .question-wrapper .actions > a:nth-child(2) {
-  /** botando a + a no final funciona do mesmo jeito **/
-  margin-left: 2.4rem;
+	/** botando a + a no final funciona do mesmo jeito **/
+	margin-left: 2.4rem;
 }
 
 /** question read **/
 .question-wrapper.read {
-  background-color: var(--grey-medium);
+	background-color: var(--grey-medium);
 }
 .question-wrapper.read .question-content .user {
-  background-color: var(--grey-blue);
+	background-color: var(--grey-blue);
 }
 
 /** no question **/
 
 .no-questions {
-  text-align: center;
-  margin-top: 5.2rem;
+	text-align: center;
+	margin-top: 5.2rem;
 }
 .no-questions img {
-  max-width: 100%;
-  margin-bottom: 1.2rem;
+	max-width: 100%;
+	margin-bottom: 1.2rem;
 }
 
 .no-questions p {
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.8rem;
-  font-weight: 600;
+	font-family: "Poppins", sans-serif;
+	font-size: 1.8rem;
+	font-weight: 600;
 }
 .no-questions p + p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.4rem;
-  font-weight: 400;
-  margin-top: 1.3rem;
-  line-height: 1.9rem;
-  color: var(--grey-dark);
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-top: 1.3rem;
+	line-height: 1.9rem;
+	color: var(--grey-dark);
 }
-
 
 /* navigation */
 
 .navigation {
-  width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .navigation .logo {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 
-.navigation img {
-  width: 4.38rem !important;
-  height: 4.38rem;
+.navigation .logo img {
+	width: 4.38rem;
+	height: 4.38rem;
 }
 
 .navigation p {
-  width: 100%;
-  color: var(--black);
-  font-family: 'GT Walsheim Pro', sans-serif;
-  font-weight: 700;
-  font-size: 3rem;
+	width: 100%;
+	color: var(--black);
+	font-family: "GT Walsheim Pro", sans-serif;
+	font-weight: 700;
+	font-size: 3rem;
 }
 
 .navigation input {
-  width: 3rem !important;
-  height: 3rem;
-  margin: .4rem 0 0 .4rem;
+	width: 3rem;
+	height: 3rem;
+	margin: 0.4rem 0 0 0.4rem;
 }
