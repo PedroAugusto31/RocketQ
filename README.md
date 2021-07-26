@@ -18,3 +18,4 @@
 > <h2>Final considerations✨</h2>
 
 <p>It was a pleasure to make this project alongside the <a href="https://app.rocketseat.com.br/">Rocketseat team<a>❤️</p>
+  <p> I'll keep doing some modifications to see what I can do from what I learned with this event. </p>
