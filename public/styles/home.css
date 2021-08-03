@@ -130,7 +130,18 @@ img,
 	font-size: 3rem;
 }
 
-.navigation input {
+.navigation button.that {
+	width: 3rem;
+	height: 3rem;
+	margin: 0.4rem 0 0 0.4rem;
+
+	padding: 2rem;
+}
+.navigation button.that img {
+	margin: 0.4rem;
+	padding: 2rem;
+}
+.navigation button.that.-lul {
 	width: 3rem;
 	height: 3rem;
 	margin: 0.4rem 0 0 0.4rem;
