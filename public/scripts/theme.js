@@ -1,5 +1,5 @@
 const html = document.querySelector("html");
-const button = document.querySelector("button.that");
+const themeButton = document.querySelector("button.that");
 const imagem = document.querySelector("button.that img");
 
 const getStyle = (element, style) =>
@@ -25,16 +25,16 @@ const changeColor = (color) => {
 	);
 };
 
-button.addEventListener("click", () => {
-	button.className.endsWith("-lul")
+themeButton.addEventListener("click", () => {
+	themeButton.className.endsWith("-dark")
 		? (() => {
-				button.classList.remove("-lul");
+				themeButton.classList.remove("-dark");
 				changeColor(darkMode);
 				imagem.src =
 					"https://img.icons8.com/ios-glyphs/24/ffffff/bright-moon--v1.png";
 		  })()
 		: (() => {
-				button.classList.add("-lul");
+				themeButton.classList.add("-dark");
 				changeColor(initialColors);
 				imagem.src =
 					"https://img.icons8.com/material-rounded/24/ffffff/sun--v1.png";
