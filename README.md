@@ -13,7 +13,7 @@
 
 > <h2> About the Project🔥 </h2>
 
-<p>RocketQ is a platform where you can ask questions anonymously on private rooms, each room has it's own ID!</p>
+<p>RocketQ is a platform where you can ask questions anonymously on private rooms, each room has it's own ID.</p>
 
 > <h2>Final considerations✨</h2>
 
